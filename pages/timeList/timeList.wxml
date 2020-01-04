@@ -1,0 +1,78 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">个旧-蒙自</view>
+</cu-custom>
+<view class="cu-card case">
+    <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892999</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余6座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+     <view class="cu-item shadow">
+        <view class="text-center bg-white flex padding">
+            <view class="padding">ctx188892998</view>
+            <view class="solid-bottom text-lg padding">
+                <text class="text-black">8:30出发</text>
+            </view>
+            <view class="padding">剩余4座</view>
+        </view>
+    </view>
+</view>

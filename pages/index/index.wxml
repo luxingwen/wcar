@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="cu-card case">
+    <form>
+        <view class="flex">
+            <view class="flex-twice">
+                <view class="cu-form-group ">
+                    <view>出发</view>
+                    <picker bindchange="bindPickerChange" value="{{index}}" range="{{arean}}" range-key="name">
+                        <view class="text-center">{{arean[index].name}}</view>
+                    </picker>
+                </view>
+                <view class="cu-form-group">
+                    <view>到达</view>
+                    <picker bindchange="bindPickerChange2" value="{{index}}" range="{{arean}}" range-key="name">
+                        <view class="text-center">{{arean[index2].name}}</view>
+                    </picker>
+                </view>
+                <view class="cu-form-group">
+                    <view class="title">日期</view>
+                    <picker class="" mode="date" value="{{date}}" start="2020-01-01" end="2021-09-01" bindchange="DateChange">
+                        <view class="text-center">
+                            今天
+                        </view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+        <view class="bg-white action">
+            <button class="cu-btn block bg-blue margin-tb-sm lg">查询</button>
+        </view>
+    </form>
+</view>

@@ -1,0 +1,21 @@
+{
+    "pages": [
+        "pages/timeList/timeList",
+        "pages/index/index",
+        "pages/logs/logs"
+
+    ],
+    "window":
+    {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "家政",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+    },
+    "usingComponents":
+    {
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap.json"
+}
