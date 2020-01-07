@@ -1,0 +1,20 @@
+<!--pages/desc/desc.wxml-->
+<cu-custom bgColor="bg-white">
+  <!-- <view slot="backText">返回</view> -->
+  <view slot="content">描述页面</view>
+  <!-- <view class="action" slot="right">
+    <view class="cu-load load-icon {{!isLoad?'loading':'over'}}"></view>
+  </view> -->
+</cu-custom>
+<view class="box">
+  <view class="desc">
+    <view class="img">
+    <image src="{{desc.img}}"></image>
+    </view>
+    <view class="title">{{desc.title}}</view>
+    <view class="content">{{desc.content}}</view>
+  </view>
+  <view>
+    <button class="cu-btn block bg-blue" role="button"> 详情咨询</button>
+  </view>
+</view>

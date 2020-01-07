@@ -1,0 +1,33 @@
+/* pages/line/line.wxss */
+
+.box{
+  background-color: white;
+}
+.box .line-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box .line-list .line-item {
+  width: 375rpx;
+  height: 360rpx;
+  padding: 20rpx;
+}
+
+.box .line-list .line-item image{
+  width: 100%;
+  height: 180rpx;
+  border-radius: 10rpx;
+}
+.box .line-list .line-item .title{
+  font-size: 32rpx;
+  /* line-height: 16rpx; */
+  font-weight: 600;
+  height: 92rpx;
+  padding: 12rpx 0 0;
+}
+
+.box .line-list .line-item .price {
+  color: #ff4b37;
+  font-size: 34rpx;
+  padding: 10rpx 0
+}

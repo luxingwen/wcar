@@ -1,0 +1,16 @@
+/* pages/desc/desc.wxss */
+.box{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+.box .title{
+  font-size: 32rpx;
+  font-weight: 600rpx;
+  padding: 20rpx 8rpx 10rpx;
+}
+.box .content{
+  padding: 10rpx;
+  font-size: 28rpx;
+  line-height: 48rpx;
+}

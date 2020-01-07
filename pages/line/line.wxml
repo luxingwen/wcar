@@ -1,0 +1,16 @@
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">路线</view>
+  <!-- <view class="action" slot="right">
+    <view class="cu-load load-icon {{!isLoad?'loading':'over'}}"></view>
+  </view> -->
+</cu-custom>
+<view class="box">
+  <view class="line-list">
+    <view class="line-item" wx:for="{{line}}">
+      <view class="img"><image lazy-load="true" mode="heightFix" src="{{item.img}}"></image></view>
+      <view class="title">{{item.title}}</view>
+      <view class="price">￥{{item.price}} 起</view>
+    </view>
+  </view>
+</view>

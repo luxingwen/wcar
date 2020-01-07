@@ -1,9 +1,10 @@
 {
     "pages": [
-        "pages/timeList/timeList",
-        "pages/index/index",
-        "pages/logs/logs"
-
+      "pages/desc/desc",
+      "pages/line/line",
+      "pages/index/index",
+      "pages/timeList/timeList",
+      "pages/logs/logs"
     ],
     "window":
     {
